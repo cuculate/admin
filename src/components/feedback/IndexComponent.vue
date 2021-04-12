@@ -133,7 +133,6 @@
             setData(response) {
                 if (response !== undefined && response !== null) {
                     this.feedbacks = response.data.data.feedback.data;
-                    console.log(this.feedbacks[0].product.name)
                     this.products = response.data.data.product;
                     this.prev = response.data.data.feedback.prev_page_url;
                     this.next = response.data.data.feedback.next_page_url;

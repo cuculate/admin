@@ -7,6 +7,7 @@
             <th>Đồ chơi</th>
             <th class="text-center">Khách hàng</th>
             <th class="text-center">Tiêu đề</th>
+            <th class="text-center">Đánh giá</th>
             <th class="text-right">Nội dung</th>
         </tr>
         </thead>
@@ -31,6 +32,7 @@
             </td>
             <td class="text-center">{{ feedback['name'] }}</td>
             <td class="text-center">{{ feedback['title'] }}</td>
+            <td class="text-center" style="width: 100px">{{ feedback['star'] }} <i class="fas fa-star"></i></td>
             <td class="text-right">{{ feedback['content'] }}</td>
         </tr>
         </tbody>
